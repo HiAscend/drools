@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="drools_one:war">
+    <output-path>$PROJECT_DIR$/drools_one/target</output-path>
+    <root id="archive" name="drools_one.war">
+      <element id="artifact" artifact-name="drools_one:war exploded" />
+    </root>
+  </artifact>
+</component>
