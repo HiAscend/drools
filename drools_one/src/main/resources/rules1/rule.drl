@@ -1,4 +1,4 @@
-package info.xiaohei.www.rules
+package com.heigo.model.rules;
 
 //导入自定义的实体类
 import com.heigo.model.rules.Message

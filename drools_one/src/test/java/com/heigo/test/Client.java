@@ -1,16 +1,13 @@
 package com.heigo.test;
 
-import com.heigo.model.rules.Message;
-import org.kie.api.KieServices;
-import org.kie.api.runtime.KieContainer;
-import org.kie.api.runtime.KieSession;
+
 
 /**
  * Created by ascend on 2017/2/6 16:54.
  */
 public class Client {
     public static void main(String[] args) {
-        //从工厂中获得KieServices实例
+        /*//从工厂中获得KieServices实例
         KieServices kieServices = KieServices.Factory.get();
         //从KieServices中获得KieContainer实例，其会加载kmodule.xml文件并load规则文件
         KieContainer kieContainer = kieServices.getKieClasspathContainer();
@@ -22,6 +19,6 @@ public class Client {
         //将实体类插入执行规则
         kSession.insert(message);
         kSession.fireAllRules();
-        System.out.println("message = " + message);
+        System.out.println("message = " + message);*/
     }
 }
