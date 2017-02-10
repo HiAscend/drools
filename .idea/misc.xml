@@ -5,12 +5,14 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/drools_one" />
+    <file type="web" url="file://$PROJECT_DIR$/drools_two" />
     <file type="web" url="file://$PROJECT_DIR$/test" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/drools_one/pom.xml" />
+        <option value="$PROJECT_DIR$/drools_two/pom.xml" />
       </list>
     </option>
   </component>

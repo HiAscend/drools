@@ -10,8 +10,8 @@
           <element id="library" level="project" name="Maven: org.drools:drools-core:5.6.0.Final" />
           <element id="library" level="project" name="Maven: org.mvel:mvel2:2.1.8.Final" />
           <element id="library" level="project" name="Maven: org.drools:knowledge-api:5.6.0.Final" />
-          <element id="library" level="project" name="Maven: org.drools:knowledge-internal-api:5.6.0.Final" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
+          <element id="library" level="project" name="Maven: org.drools:knowledge-internal-api:5.6.0.Final" />
           <element id="library" level="project" name="Maven: org.drools:drools-compiler:5.6.0.Final" />
           <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.3" />
           <element id="library" level="project" name="Maven: org.antlr:antlr:3.3" />
