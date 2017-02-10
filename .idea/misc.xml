@@ -7,13 +7,63 @@
     <file type="web" url="file://$PROJECT_DIR$/drools_one" />
     <file type="web" url="file://$PROJECT_DIR$/drools_two" />
     <file type="web" url="file://$PROJECT_DIR$/test" />
+    <file type="web" url="file://E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-distribution" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/drools_one/pom.xml" />
         <option value="$PROJECT_DIR$/drools_two/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-build-maven/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-distribution/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-docker-provider/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-registry-local/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-services-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-services-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-services-rest/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-source-git/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-spi/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-wildfly-provider/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-ala/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-asset-mgmt/guvnor-asset-mgmt-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-asset-mgmt/guvnor-asset-mgmt-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-asset-mgmt/guvnor-asset-mgmt-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-asset-mgmt/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-m2repo-editor/guvnor-m2repo-editor-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-m2repo-editor/guvnor-m2repo-editor-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-m2repo-editor/guvnor-m2repo-editor-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-m2repo-editor/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-message-console/guvnor-message-console-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-message-console/guvnor-message-console-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-message-console/guvnor-message-console-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-message-console/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-organizationalunit-manager/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-project/guvnor-project-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-project/guvnor-project-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-project/guvnor-project-builder/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-project/guvnor-project-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-project/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-rest/guvnor-rest-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-rest/guvnor-rest-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-rest/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-services/guvnor-services-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-services/guvnor-services-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-services/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-structure/guvnor-structure-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-structure/guvnor-structure-backend/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-structure/guvnor-structure-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-structure/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-test-utils/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-workingset/guvnor-workingset-api/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-workingset/guvnor-workingset-client/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/guvnor-workingset/pom.xml" />
+        <option value="E:/dev_doc/drools/guvnor-master/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">

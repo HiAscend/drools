@@ -29,6 +29,50 @@
     <bytecodeTargetLevel>
       <module name="drools_one" target="1.5" />
       <module name="drools_two" target="1.5" />
+      <module name="guvnor" target="1.5" />
+      <module name="guvnor-ala" target="1.5" />
+      <module name="guvnor-ala-build-maven" target="1.5" />
+      <module name="guvnor-ala-distribution" target="1.5" />
+      <module name="guvnor-ala-docker-provider" target="1.5" />
+      <module name="guvnor-ala-registry-local" target="1.5" />
+      <module name="guvnor-ala-services-api" target="1.5" />
+      <module name="guvnor-ala-services-backend" target="1.5" />
+      <module name="guvnor-ala-services-rest" target="1.5" />
+      <module name="guvnor-ala-source-git" target="1.5" />
+      <module name="guvnor-ala-spi" target="1.5" />
+      <module name="guvnor-ala-wildfly-provider" target="1.5" />
+      <module name="guvnor-asset-mgmt" target="1.5" />
+      <module name="guvnor-asset-mgmt-api" target="1.5" />
+      <module name="guvnor-asset-mgmt-backend" target="1.5" />
+      <module name="guvnor-asset-mgmt-client" target="1.5" />
+      <module name="guvnor-m2repo-editor" target="1.5" />
+      <module name="guvnor-m2repo-editor-api" target="1.5" />
+      <module name="guvnor-m2repo-editor-backend" target="1.5" />
+      <module name="guvnor-m2repo-editor-client" target="1.5" />
+      <module name="guvnor-message-console" target="1.5" />
+      <module name="guvnor-message-console-api" target="1.5" />
+      <module name="guvnor-message-console-backend" target="1.5" />
+      <module name="guvnor-message-console-client" target="1.5" />
+      <module name="guvnor-organizationalunit-manager" target="1.5" />
+      <module name="guvnor-project" target="1.5" />
+      <module name="guvnor-project-api" target="1.5" />
+      <module name="guvnor-project-backend" target="1.5" />
+      <module name="guvnor-project-builder" target="1.5" />
+      <module name="guvnor-project-client" target="1.5" />
+      <module name="guvnor-rest" target="1.5" />
+      <module name="guvnor-rest-backend" target="1.5" />
+      <module name="guvnor-rest-client" target="1.5" />
+      <module name="guvnor-services" target="1.5" />
+      <module name="guvnor-services-api" target="1.5" />
+      <module name="guvnor-services-backend" target="1.5" />
+      <module name="guvnor-structure" target="1.5" />
+      <module name="guvnor-structure-api" target="1.5" />
+      <module name="guvnor-structure-backend" target="1.5" />
+      <module name="guvnor-structure-client" target="1.5" />
+      <module name="guvnor-test-utils" target="1.5" />
+      <module name="guvnor-workingset" target="1.5" />
+      <module name="guvnor-workingset-api" target="1.5" />
+      <module name="guvnor-workingset-client" target="1.5" />
       <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>

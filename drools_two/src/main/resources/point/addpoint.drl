@@ -1,10 +1,21 @@
 package point;
+//对一个规则文件而言，package是必须定义的，必须放在规则文件第一行。
+//特别的是，package的名字是随意的，不必必须对应物理路径，跟java的package的概念不同，这里只是逻辑上的一种区分。
+//同样的package下定义的function和query等可以直接使用。
 
 import com.heigo.model.PointDomain;
+//导入规则文件需要使用到的外部变量，这里的使用方法跟java相同，但是不同于java的是，这里的import导入的不仅仅可以是一个类，也可以是这个类中的某一个可访问的静态方法。
 
 // 过生日，则加10分，并且将当月交易笔数翻倍后再计算积分
 rule "birthdayPoint"
     salience 100    //优先级，数值越大越先执行，这个可以控制规则的执行顺序。
+     // no-loop : 定义当前的规则是否不允许多次循环执行，默认是false
+      // lock-on-active true：通过这个标签，可以控制当前的规则只会被执行一次
+      // date-expires：设置规则的过期时间，默认的时间格式：“日-月-年” date-expires "2011-01-31 23:59:59"
+      // date-effective：设置规则的生效时间，时间格式同上
+      // duration：规则定时，duration 3000   3秒后执行规则
+      //  salience：优先级，数值越大越先执行，这个可以控制规则的执行顺序
+
     lock-on-active true //通过这个标签，可以控制当前的规则只会被执行一次
     when
         $pointDomain:PointDomain(birthDay==true)

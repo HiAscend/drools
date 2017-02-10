@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guvnor-ala-distribution:war">
+    <output-path>E:/dev_doc/drools/guvnor-master/guvnor-ala/guvnor-ala-distribution/target</output-path>
+    <root id="archive" name="guvnor-ala-distribution-7.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="guvnor-ala-distribution:war exploded" />
+    </root>
+  </artifact>
+</component>

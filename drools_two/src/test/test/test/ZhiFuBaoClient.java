@@ -16,6 +16,7 @@ public class ZhiFuBaoClient {
             KieServices kieServices = KieServices.Factory.get();
             KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
             KieSession kieSession = kieClasspathContainer.newKieSession("ksession-point");
+//            KieSession kieSession = kieClasspathContainer.newKieSession();
 
             // go
             PointDomain pointDomain = new PointDomain();
