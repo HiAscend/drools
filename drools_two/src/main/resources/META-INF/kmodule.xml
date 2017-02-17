@@ -3,4 +3,7 @@
     <kbase name="rules" packages="point" default="true">
         <ksession name="ksession-point" default="true"/>
     </kbase>
+    <kbase name="hello-world" packages="hello">
+        <ksession name="ksession-HelloWorld"/>
+    </kbase>
 </kmodule>

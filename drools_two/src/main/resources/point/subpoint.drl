@@ -10,7 +10,7 @@ rule "subBackNumsPoint"
         $pointDomain:PointDomain(backNums>=1)
     then
         $pointDomain.setPoint($pointDomain.getPoint()-10);
-        $pointDomain.recordPointLog($pointDomain.getUserName(),"subBackNumsPoint");
+        $pointDomain.recordPointLog($pointDomain.getUserName(),"subBackNumsPoint中文");
 end
 
 // 退货金额大于100，扣减100分
@@ -21,5 +21,6 @@ rule "subBackMoneyPoint"
         $pointDomain:PointDomain(backMoney>=100)
     then
         $pointDomain.setPoint($pointDomain.getPoint()-100);
-        $pointDomain.recordPointLog($pointDomain.getUserName(),"subBackMoneyPoint");
+        $pointDomain.recordPointLog($pointDomain.getUserName(),"subBackMoneyPoint中文");
+        $pointDomain.setUserName("郝攀登");
 end

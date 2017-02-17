@@ -22,11 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="credit-card" />
+        <module name="drools-message" />
+        <module name="drools-three" />
         <module name="drools_one" />
         <module name="drools_two" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="credit-card" target="1.5" />
+      <module name="default-kiesession" target="1.5" />
+      <module name="drools-message" target="1.5" />
+      <module name="drools-three" target="1.5" />
       <module name="drools_one" target="1.5" />
       <module name="drools_two" target="1.5" />
       <module name="guvnor" target="1.5" />
