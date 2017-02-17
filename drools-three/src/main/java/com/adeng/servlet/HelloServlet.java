@@ -1,6 +1,7 @@
 package com.adeng.servlet;
 
 import com.adeng.model.PointDomain;
+import com.adeng.util.DroolsUtils;
 import com.test.model.Message;
 import org.kie.api.KieServices;
 import org.kie.api.builder.KieScanner;
@@ -33,13 +34,8 @@ public class HelloServlet extends HttpServlet{
 
 
     private void testMessage(HttpServletRequest req, PrintStream out){
-        KieServices ks = KieServices.Factory.get();
-        ReleaseId releaseId = ks.newReleaseId("com.test", "drools-message", "1.0-SNAPSHOT");
-//        KieContainer kContainer = ks.getKieClasspathContainer();
-        KieContainer kContainer = ks.newKieContainer(releaseId);
-        KieScanner kieScanner = ks.newKieScanner(kContainer);
-        kieScanner.start(5000);
-        KieSession kSession = kContainer.newKieSession("ksession-hello-world");
+
+        KieSession kSession = DroolsUtils.kieContainer.newKieSession("ksession-hello-world");
         kSession.setGlobal("out", out);
         kSession.insert(new Message("Dave", "Hello"));
         kSession.fireAllRules();
