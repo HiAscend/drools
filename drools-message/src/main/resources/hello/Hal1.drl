@@ -24,4 +24,9 @@ rule "rule 1" when
 then
     System.out.println(888);
     out.println( m.getName() + ": " +  m.getText() );
+    hello();
 end
+
+function void hello(){
+    System.out.println("test.hello");
+}
