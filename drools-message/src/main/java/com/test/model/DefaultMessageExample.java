@@ -11,12 +11,15 @@ import java.io.PrintStream;
  */
 public class DefaultMessageExample {
     public void go(PrintStream out) {
+        System.setProperty("drools.dateformat","yyyy-MM-dd HH:mm:ss");
         KieServices ks = KieServices.Factory.get();
         KieContainer kContainer = ks.getKieClasspathContainer();
         KieSession kSession = kContainer.newKieSession("ksession-hello-world");
         kSession.setGlobal("out", out);
-        kSession.insert(new Message("Dave", "Hello"));
+        Message message = new Message("adeng", "Hello");
+        kSession.insert(message);
         kSession.fireAllRules();
+//        System.out.println("message = " + message);
     }
 
     public static void main(String[] args) {

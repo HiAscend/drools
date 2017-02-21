@@ -16,7 +16,7 @@
 package com.test.model;
 
 public class Message {
-
+    private int age=1;
     private String name;
     private String text;
 
@@ -41,8 +41,21 @@ public class Message {
         this.name = name;
     }
 
+    @Override
     public String toString() {
-        return "Message[name='" + name + "' text='" + text + "'";
+        return "Message{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", text='" + text + '\'' +
+                '}';
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     @Override

@@ -1,0 +1,7 @@
+package com.test.model;
+
+declare Chess
+    name:String
+    shop:String
+    price:int
+end
