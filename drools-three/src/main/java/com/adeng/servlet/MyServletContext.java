@@ -22,6 +22,7 @@ public class MyServletContext implements ServletContextListener {
      */
     public void contextInitialized(ServletContextEvent sce) {
         System.out.println("MyServletContext.contextInitialized");
+        System.out.println(">>>>>>>>>>>>>>>>>"+System.getProperty("file.encoding"));
     }
 
     /**

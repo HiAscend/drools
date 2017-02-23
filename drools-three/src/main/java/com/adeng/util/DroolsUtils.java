@@ -12,6 +12,8 @@ public class DroolsUtils {
     public static KieContainer kieContainer;
     public static KieScanner kieScanner;
     static{
+        System.setProperty("jxl.encoding", "UTF-8");
+        System.setProperty("drools.dateformat","yyyy-MM-dd HH:mm:ss");
         KieServices ks = KieServices.Factory.get();
         ReleaseId releaseId = ks.newReleaseId("com.test", "drools-message", "1.0-SNAPSHOT");
 //        KieContainer kContainer = ks.getKieClasspathContainer();

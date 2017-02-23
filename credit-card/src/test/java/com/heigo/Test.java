@@ -39,4 +39,9 @@ public class Test {
             e.printStackTrace();
         }
     }
+
+    @org.junit.Test
+    public void tt(){
+        System.out.println("中国");
+    }
 }

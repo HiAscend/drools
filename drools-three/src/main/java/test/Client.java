@@ -2,6 +2,7 @@ package test;
 
 import com.adeng.model.PointDomain;
 import com.test.model.Message;
+import org.junit.Test;
 import org.kie.api.KieServices;
 import org.kie.api.builder.KieScanner;
 import org.kie.api.builder.ReleaseId;
@@ -54,5 +55,10 @@ public class Client {
         KieSession kSession = kContainer.newKieSession("ksession-hello-world");
         kSession.insert(new Message("Dave", "Hello"));
         kSession.fireAllRules();
+    }
+
+    @Test
+    public void tt(){
+//        Integer
     }
 }

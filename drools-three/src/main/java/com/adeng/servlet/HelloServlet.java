@@ -37,8 +37,10 @@ public class HelloServlet extends HttpServlet{
 
         KieSession kSession = DroolsUtils.kieContainer.newKieSession("ksession-hello-world");
         kSession.setGlobal("out", out);
-        kSession.insert(new Message("Dave", "Hello"));
+        Message message = new Message(req.getParameter("name"), "22哈哈");
+        kSession.insert(message);
         kSession.fireAllRules();
+        System.out.println("message = " + message);
     }
 
     private void testCredit(HttpServletRequest req){

@@ -1,0 +1,28 @@
+package hello;
+dialect  "java"
+import java.util.ArrayList;
+import com.test.model.Person;
+rule "a"
+    when
+        list:ArrayList();
+        person:Person(age>25) from list
+    then
+        System.out.println("a:"+person);
+end
+
+rule "b"
+    when
+        list:ArrayList();
+        person:Person(age>20) from list
+    then
+        System.out.println("b:"+person);
+end
+
+/*
+rule "c"
+    when
+        list:ArrayList();
+        person:Person(age>20) from list
+    then
+        System.out.println("c:"+person);
+end*/

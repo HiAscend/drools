@@ -5,9 +5,10 @@ import com.test.model.Message
 global java.io.PrintStream out
 
 rule "rule 1"
-    no-loop true
+//    no-loop true
     date-effective "2017-02-21 17:00:00"    //仅当当前日期和时间在日期有效属性后面时，才能激活规则。
-    duration 2000
+//    duration 2000     // 6.X弃用
+//    timer(int:2s 4000ms)
     when
         m : Message(name.equals("adeng") && age<5)
     then
@@ -16,9 +17,14 @@ rule "rule 1"
 //        out.println( m.getName() + ": " +  m.getText() );
         hello();
         System.out.println(m);
-//        update(m);
+//        m.setName(m.getText());
+        m.setName("222哈哈");
+        update(m);
+
 end
 
 function void hello(){
     System.out.println("test.hello");
 }
+
+
