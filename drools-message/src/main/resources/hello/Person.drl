@@ -1,11 +1,11 @@
-package hello;
+package com.person;
 dialect  "java"
 import java.util.ArrayList;
 import com.test.model.Person;
-rule "a"
+/*rule "a"
     when
         list:ArrayList();
-        person:Person(age>25) from list
+        person:Person(age<2) from list
     then
         System.out.println("a:"+person);
 end
@@ -13,10 +13,48 @@ end
 rule "b"
     when
         list:ArrayList();
-        person:Person(age>20) from list
+        songs:ArrayList();
+        person:Person(age>26 && songs contains "%tu%") from list;
     then
         System.out.println("b:"+person);
+end*/
+
+rule "boy"
+    salience 1
+    when
+        $p:Person(age>0);
+    then
+        $p.setDesc("少年");
+        retract($p);    //删除
 end
+
+rule "youth"
+    salience 2
+    when
+        $p:Person(age>12);
+    then
+        $p.setDesc("青年");
+        retract($p);    //删除
+end
+
+rule "midlife"
+    salience 3
+    when
+        $p:Person(age>24);
+    then
+        $p.setDesc("中年");
+        retract($p);    //删除
+end
+
+rule "old"
+    salience 4
+    when
+        $p:Person(age>60);
+    then
+        $p.setDesc("老年");
+        retract($p);    //删除
+end
+
 
 /*
 rule "c"
