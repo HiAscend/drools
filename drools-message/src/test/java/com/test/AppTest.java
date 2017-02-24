@@ -1,5 +1,6 @@
 package com.test;
 
+import com.test.model.Person;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -34,5 +35,11 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+
+    @org.junit.Test
+    public void test(){
+        Person p = new Person();
+        System.out.println(p==null);
     }
 }
