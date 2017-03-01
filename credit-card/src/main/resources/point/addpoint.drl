@@ -4,6 +4,7 @@ package point;
 //同样的package下定义的function和query等可以直接使用。
 
 import com.heigo.model.PointDomain;
+
 //导入规则文件需要使用到的外部变量，这里的使用方法跟java相同，但是不同于java的是，这里的import导入的不仅仅可以是一个类，也可以是这个类中的某一个可访问的静态方法。
 
 // 过生日，则加10分，并且将当月交易笔数翻倍后再计算积分
