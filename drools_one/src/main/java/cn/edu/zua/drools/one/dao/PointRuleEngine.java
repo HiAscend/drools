@@ -1,6 +1,6 @@
-package com.heigo.dao;
+package cn.edu.zua.drools.one.dao;
 
-import com.heigo.model.rules.PointDomain;
+import cn.edu.zua.drools.one.model.rules.PointDomain;
 
 /**
  * 规则接口

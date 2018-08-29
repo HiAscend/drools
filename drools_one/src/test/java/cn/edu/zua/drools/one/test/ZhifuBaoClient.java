@@ -1,8 +1,8 @@
-package com.heigo.test;
+package cn.edu.zua.drools.one.test;
 
-import com.heigo.dao.PointRuleEngine;
-import com.heigo.dao.impl.PointRuleEngineImpl;
-import com.heigo.model.rules.PointDomain;
+import cn.edu.zua.drools.one.dao.PointRuleEngine;
+import cn.edu.zua.drools.one.dao.impl.PointRuleEngineImpl;
+import cn.edu.zua.drools.one.model.rules.PointDomain;
 
 import java.io.BufferedReader;
 import java.io.IOException;

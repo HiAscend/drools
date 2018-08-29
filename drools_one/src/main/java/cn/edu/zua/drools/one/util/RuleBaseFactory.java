@@ -1,4 +1,4 @@
-package com.heigo.util;
+package cn.edu.zua.drools.one.util;
 
 import org.drools.RuleBase;
 

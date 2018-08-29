@@ -1,4 +1,4 @@
-package com.heigo.model.rules;
+package cn.edu.zua.drools.one.model.rules;
 
 /**
  * 积分计算对象

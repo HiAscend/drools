@@ -1,4 +1,4 @@
-package com.heigo.test;
+package cn.edu.zua.drools.one.test;
 
 
 

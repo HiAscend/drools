@@ -1,8 +1,8 @@
-package com.heigo.dao.impl;
+package cn.edu.zua.drools.one.dao.impl;
 
-import com.heigo.dao.PointRuleEngine;
-import com.heigo.model.rules.PointDomain;
-import com.heigo.util.RuleBaseFactory;
+import cn.edu.zua.drools.one.dao.PointRuleEngine;
+import cn.edu.zua.drools.one.model.rules.PointDomain;
+import cn.edu.zua.drools.one.util.RuleBaseFactory;
 import org.drools.RuleBase;
 import org.drools.StatefulSession;
 import org.drools.compiler.PackageBuilder;

@@ -1,4 +1,4 @@
-package com.heigo.model.rules;
+package cn.edu.zua.drools.one.model.rules;
 
 /**
  * Created by ascend on 2017/2/6 16:40.
