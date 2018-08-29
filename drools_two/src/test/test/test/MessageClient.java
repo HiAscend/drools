@@ -1,6 +1,6 @@
 package test;
 
-import com.heigo.model.Message;
+import cn.edu.zua.drools.credit.card.model.Message;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;

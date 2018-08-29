@@ -1,7 +1,6 @@
-package com.heigo.model.rules;
+package rules1;
 
 //导入自定义的实体类
-import com.heigo.model.rules.Message
 import cn.edu.zua.drools.one.model.rules.Message
 
 //规则名

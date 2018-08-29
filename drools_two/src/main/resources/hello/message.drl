@@ -1,6 +1,6 @@
 package hello
 
-import com.heigo.model.Message;
+import cn.edu.zua.drools.credit.card.model.Message;
 
 rule "Good Bye"
     dialect "java"

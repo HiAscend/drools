@@ -1,4 +1,4 @@
-package com.heigo.model;
+package cn.edu.zua.drools.credit.card.model;
 
 /**
  * Created by ascend on 2017/2/14 14:58.

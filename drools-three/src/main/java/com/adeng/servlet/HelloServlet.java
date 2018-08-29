@@ -48,7 +48,7 @@ public class HelloServlet extends HttpServlet{
             System.setProperty("drools.dateformat","yyyy-MM-dd HH:mm:ss");
             // load up the knowledge base
             KieServices kieServices = KieServices.Factory.get();
-            ReleaseId releaseId = kieServices.newReleaseId("com.heigo", "credit-card", "1.0-SNAPSHOT");
+            ReleaseId releaseId = kieServices.newReleaseId("cn.edu.zua.drools", "credit-card", "1.0-SNAPSHOT");
             KieContainer kieContainer = kieServices.newKieContainer(releaseId);
 //            KieScanner kieScanner = kieServices.newKieScanner(kieContainer);
 //            kieScanner.start(2000);

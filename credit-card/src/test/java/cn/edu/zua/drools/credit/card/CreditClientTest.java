@@ -1,4 +1,4 @@
-package com.heigo;
+package cn.edu.zua.drools.credit.card;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

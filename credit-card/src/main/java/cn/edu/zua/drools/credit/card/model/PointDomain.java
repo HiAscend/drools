@@ -1,4 +1,4 @@
-package com.heigo.model;
+package cn.edu.zua.drools.credit.card.model;
 
 /**
  * 积分计算对象

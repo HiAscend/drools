@@ -1,6 +1,6 @@
 package rules1;
 
-import com.heigo.model.rules.PointDomain;
+import cn.edu.zua.drools.one.model.rules.PointDomain;
 
 // 过生日，则加10分，并且将当月交易笔数翻倍后再计算积分
 rule "birthdayPoint"

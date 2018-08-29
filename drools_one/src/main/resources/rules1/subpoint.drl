@@ -1,6 +1,6 @@
 package rules1;
 
-import com.heigo.model.rules.PointDomain;
+import cn.edu.zua.drools.one.model.rules.PointDomain;
 
 // 发生退货，扣减10分
 rule "subBackNumsPoint"
